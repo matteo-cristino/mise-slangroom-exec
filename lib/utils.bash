@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for slangroom-exec.
-GH_REPO="https://github.com/matteo-cristino/slangroom-exec"
+GH_REPO="https://github.com/dyne/slangroom-exec"
 TOOL_NAME="slangroom-exec"
 TOOL_TEST="slangroom-exec --help"
 
@@ -42,7 +42,7 @@ download_release() {
 	filename="$2"
 
 	# TODO: Adapt the release URL convention for slangroom-exec
-	url="$GH_REPO/archive/v${version}.tar.gz"
+	url="$GH_REPO/releases/download/v${version}/slangroom-exec-$(uname)-$(uname -m)"
 
 	echo "* Downloading $TOOL_NAME release $version..."
 	curl "${curl_opts[@]}" -o "$filename" -C - "$url" || fail "Could not download $url"
