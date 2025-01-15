@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-slangroom-exec [![Build](https://github.com/matteo-cristino/asdf-slangroom-exec/actions/workflows/build.yml/badge.svg)](https://github.com/matteo-cristino/asdf-slangroom-exec/actions/workflows/build.yml) [![Lint](https://github.com/matteo-cristino/asdf-slangroom-exec/actions/workflows/lint.yml/badge.svg)](https://github.com/matteo-cristino/asdf-slangroom-exec/actions/workflows/lint.yml)
+# mise-slangroom-exec [![Build](https://github.com/matteo-cristino/mise-slangroom-exec/actions/workflows/build.yml/badge.svg)](https://github.com/matteo-cristino/mise-slangroom-exec/actions/workflows/build.yml) [![Lint](https://github.com/matteo-cristino/mise-slangroom-exec/actions/workflows/lint.yml/badge.svg)](https://github.com/matteo-cristino/mise-slangroom-exec/actions/workflows/lint.yml)
 
 [slangroom-exec](https://github.com/matteo-cristino/slangroom-exec) plugin for the [asdf version manager](https://asdf-vm.com).
 
@@ -8,6 +8,8 @@
 
 # Contents
 
+- [mise-slangroom-exec  ](#mise-slangroom-exec--)
+- [Contents](#contents)
 - [Dependencies](#dependencies)
 - [Install](#install)
 - [Contributing](#contributing)
@@ -27,7 +29,7 @@ Plugin:
 ```shell
 asdf plugin add slangroom-exec
 # or
-asdf plugin add slangroom-exec https://github.com/matteo-cristino/asdf-slangroom-exec.git
+asdf plugin add slangroom-exec https://github.com/matteo-cristino/mise-slangroom-exec.git
 ```
 
 slangroom-exec:
@@ -53,7 +55,7 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/matteo-cristino/asdf-slangroom-exec/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/matteo-cristino/mise-slangroom-exec/graphs/contributors)!
 
 # License
 
