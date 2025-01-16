@@ -2,7 +2,7 @@
 
 # mise-slangroom-exec [![Build](https://github.com/matteo-cristino/mise-slangroom-exec/actions/workflows/build.yml/badge.svg)](https://github.com/matteo-cristino/mise-slangroom-exec/actions/workflows/build.yml) [![Lint](https://github.com/matteo-cristino/mise-slangroom-exec/actions/workflows/lint.yml/badge.svg)](https://github.com/matteo-cristino/mise-slangroom-exec/actions/workflows/lint.yml)
 
-[slangroom-exec](https://github.com/matteo-cristino/slangroom-exec) plugin for the [asdf version manager](https://asdf-vm.com).
+[slangroom-exec](https://github.com/dyne/slangroom-exec) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
