@@ -27,22 +27,20 @@
 Plugin:
 
 ```shell
-asdf plugin add slangroom-exec
-# or
-asdf plugin add slangroom-exec https://github.com/matteo-cristino/mise-slangroom-exec.git
+mise plugin add slangroom-exec https://github.com/matteo-cristino/mise-slangroom-exec.git
 ```
 
 slangroom-exec:
 
 ```shell
 # Show all installable versions
-asdf list-all slangroom-exec
+mise list-all slangroom-exec
 
 # Install specific version
-asdf install slangroom-exec latest
+mise install slangroom-exec@latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global slangroom-exec latest
+mise global slangroom-exec@latest
 
 # Now slangroom-exec commands are available
 slangroom-exec --help
